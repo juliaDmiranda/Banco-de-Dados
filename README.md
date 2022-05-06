@@ -2,7 +2,7 @@ O repositório é destinado para armazenar atividades realizadas na disciplina B
 O software utilizado é MySQL Workbench. No repositório [MySQL](https://github.com/juliaDmiranda/SQL) poderão ser encontradas referências para consultas.
 
 ## Modelando um sistema acadêmico
-  A atividade de [modelagem de sistema acadêmico](https://github.com/juliaDmiranda/BD/blob/main/atv_04_05_2022) trabalha o básico de criação de tabela incluindo a inclusão de chaves primárias e estrangeira trabalhando com relações 1 para muitos e muitos para muitos.<br/>Dentre as tabelas temos
+  A atividade de [modelagem de sistema acadêmico](https://github.com/juliaDmiranda/BD/tree/main/FACULDADE) trabalha o básico de criação de tabela incluindo a inclusão de chaves primárias e estrangeira trabalhando com relações 1 para muitos e muitos para muitos.<br/>Dentre as tabelas temos
 * aluno
 * turma
 * disciplinas
