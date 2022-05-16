@@ -2,9 +2,7 @@
 select disciplinas.cod, disciplinas.nome, cursou.semestre, cursou.nota
 from disciplinas
 inner join cursou on disciplinas.cod = cursou.disciplina
-where disciplinas.cod in (select cursou.disciplina
-						  from cursou
-						  inner join aluno on cursou.aluno = aluno.id);
+where aluno_id = (select id from aluno where matr = matricula), cursou.id = aluno_id;
 
 -- Retornar lista de matr, nome e média das notas de cada aluno
 -- Lista de turmas e quantidade de alunos inscritos, ordenada das maiores para as menores turmas
