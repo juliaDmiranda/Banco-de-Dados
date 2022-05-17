@@ -1,4 +1,4 @@
-O repositório é destinado para armazenar atividades realizadas na disciplina Banco de Dados ministrada pelo professor Carlos Basílio.
+O repositório é destinado para armazenar atividades realizadas na disciplina Banco de Dados ministrada pelo professor [Carlos Bazilio](https://github.com/carlosbazilio).
 O software utilizado é MySQL Workbench.
 
 ## Modelando um sistema acadêmico
@@ -17,7 +17,7 @@ O software utilizado é MySQL Workbench.
   Temos nesse modelo que no sistema acadêmico um aluno pode estar inscrito nenhuma ou n turmas, e cada turma pode ter a inscrição de nenhum ou n alunos. Dessa forma temos uma ***relação de muitos para muitos***.<br>Por isso foi necessária a criação da tabela inscrito para representarmos a relação de aluno e turma.
   
 #### turma e disciplinas
-  Temos nesse modelo que no sistema acadêmico uma disciplina possui nenhuma ou n turmas, e cada turma comporta apenas uma disciplina. Dessa forma, temos uma ***relação de muitos para 1***.<br>Não foi necessária então a criação de uma nova tabela para representar a relação entre turma e disicplinas. Como uma turma estará relacionada com somente uma disciplina cria-se uma referência na própria tabela turma para a disciplina relacionada a essa turma.
+  Temos nesse modelo que no sistema acadêmico uma disciplina possui nenhuma ou n turmas, e cada turma comporta apenas uma disciplina. Dessa forma, temos uma ***relação de muitos para 1***.<br>Não foi necessária então a criação de uma nova tabela para representar a relação entre turma e disciplinas. Como uma turma estará relacionada com somente uma disciplina cria-se uma referência na própria tabela turma para a disciplina relacionada a essa turma.
   
 ## Inserção de valores: usando INSERT INTO
    A atividade de [preenchimento das entidades do banco](https://github.com/juliaDmiranda/BD/blob/main/FACULDADE/atv_11_05_2022_insert.sql)  trabalha com  a operação básica de inserção de valores em uma determinada tabela. 
