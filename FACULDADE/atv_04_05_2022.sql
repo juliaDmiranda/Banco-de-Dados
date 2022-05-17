@@ -1,6 +1,5 @@
 create table aluno(
-	id int auto_increment primary key,
-    matr int,
+    matr int auto_increment primary key,
     nome varchar(30)
 );
 
@@ -24,7 +23,7 @@ create table cursou(
     aluno int,
     disciplina int,
     foreign key (aluno)
-    references aluno(id),    
+    references aluno(matr),    
     foreign key (disciplina)
     references disciplinas(cod)
 );
@@ -33,8 +32,7 @@ create table inscrito(
     aluno int,
     turma int,
     foreign key (aluno)
-    references aluno(id),    
+    references aluno(matr),    
     foreign key (turma)
     references turma(cod)
 );
-
