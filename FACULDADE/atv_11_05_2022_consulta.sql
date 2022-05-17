@@ -16,4 +16,8 @@ from inscrito
 group by inscrito.turma
 order by qtd_alunos desc;
 
-
+-- Lista dos alunos (matr e nome) que não estão inscritos em nenhuma turma
+select aluno.matr, aluno.nome
+from aluno
+left join inscrito on inscrito.aluno = aluno.matr
+where inscrito.turma is null;
