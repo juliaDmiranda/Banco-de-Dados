@@ -1,6 +1,6 @@
-insert into aluno (matr, nome) values
-(219060053, 'Julia'),
-(219060076, 'Roberto');
+insert into aluno (nome) values
+('Julia'),
+('Roberto');
 
 insert into disciplinas(nome, ch) values
 ('BD', 72),
