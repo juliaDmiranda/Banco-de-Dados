@@ -49,3 +49,15 @@ O software utilizado é MySQL Workbench.
 * Retornar as seguintes informações dos alunos que não estão inscritos em nenhuma turma:
    - matrícula do aluno
    - nome do aluno
+  
+## Procedure
+   A atividade de [criação de procedure](inserelink) trabalha a utilização de procedure. Criamos procedures para trabalhar com os dados da atividade de [modelagem de sistema acadêmico](https://github.com/juliaDmiranda/BD/tree/main/FACULDADE).
+   
+### Insere()
+* Procedure "genérica" para inserção nas tabelas Aluno, Turma e Disciplinas
+* insere (in tabela_type CHAR(30), in palavra CHAR(30), in num1 int, in num2 int)
+* Parâmetros
+   - tabela_type : nome da tabela para comparação na função
+   - palavra: atributo da tabela Aluno(nome) ou tabela Disciplinas(nome)
+   - num1: inteiro para tabela Aluno(matrícula) ou tabela Disciplinas(sala)
+   - num2: inteiro para tabela Disciplinas(ch)
