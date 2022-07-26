@@ -51,7 +51,7 @@ O software utilizado é MySQL Workbench.
    - nome do aluno
   
 ## Procedure
-   A atividade de [criação de procedure](inserelink) trabalha a utilização de procedure. Criamos procedures para trabalhar com os dados da atividade de [modelagem de sistema acadêmico](https://github.com/juliaDmiranda/BD/tree/main/FACULDADE).
+   A atividade de [criação de procedure](https://github.com/juliaDmiranda/Banco-de-Dados-I/blob/main/FACULDADE/atv_01_06_2022.sql) trabalha a utilização de procedure. Criamos procedures para trabalhar com os dados da atividade de [modelagem de sistema acadêmico](https://github.com/juliaDmiranda/BD/tree/main/FACULDADE).
    
 ### Insere()
 * Procedure "genérica" para inserção nas tabelas Aluno, Turma e Disciplinas
@@ -61,3 +61,6 @@ O software utilizado é MySQL Workbench.
    - palavra: atributo da tabela Aluno(nome) ou tabela Disciplinas(nome)
    - num1: inteiro para tabela Aluno(matrícula) ou tabela Disciplinas(sala)
    - num2: inteiro para tabela Disciplinas(ch)
+   
+## Conexão com um MySQL database utilizando Java
+  A atividade de [conexão com um banco de dados MySQL utilizando a linguagem Java](https://github.com/juliaDmiranda/Banco-de-Dados-I/tree/main/ConnectToMySQL) permite com a utilização do conector Java realizarmos consultas, criações e demais operações em um banco de dados MySQL.
