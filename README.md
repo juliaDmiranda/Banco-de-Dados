@@ -1,4 +1,4 @@
-O repositório é destinado para armazenar atividades realizadas na disciplina Banco de Dados ministrada pelo professor [Carlos Bazilio](https://github.com/carlosbazilio).
+O repositório é destinado para armazenar atividades realizadas na disciplina Banco de Dados do curso de Ciências da Computação da UFF-Rio das Ostras, ministrada pelo professor [Carlos Bazilio](https://github.com/carlosbazilio).
 O software utilizado é MySQL Workbench.
 
 ## Modelando um sistema acadêmico
