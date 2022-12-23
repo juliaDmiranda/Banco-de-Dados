@@ -1,4 +1,4 @@
-O repositório é destinado para armazenar atividades realizadas na disciplina Banco de Dados do curso de Ciências da Computação da UFF-Rio das Ostras, ministrada pelo professor [Carlos Bazilio](https://github.com/carlosbazilio).
+O repositório é destinado para armazenar atividades realizadas na disciplina Banco de Dados do curso de Ciências da Computação da UFF-Rio das Ostras.
 O software utilizado é MySQL Workbench.
 
 ## Modelando um sistema acadêmico
@@ -25,7 +25,7 @@ O software utilizado é MySQL Workbench.
 ## Consulta em um banco de sistema acadêmico
    A atividade de [consulta](https://github.com/juliaDmiranda/BD/blob/main/FACULDADE/atv_11_05_2022_consulta.sql) no banco criado na atividade de [modelagem de sistema acadêmico](https://github.com/juliaDmiranda/BD/tree/main/FACULDADE) utiliza-se de ***inner join***, ***group by*** nas consultas.
  
-### Histórico esoclar de 1 aluno
+### Histórico escolar de 1 aluno
    Nesta consulta, dada a matrícula de um aluno, deve-se retornar seu histórico.<br/>
    O histórico do aluno é composto pelos seguintes atributos:
    - código da disciplina
